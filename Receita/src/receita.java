@@ -54,6 +54,7 @@ public class receita {
             System.out.println("Pegar " + ingrediente8);
             System.out.println("Abrir " + ingrediente8 + " com a " + utensilio5);
             System.out.println("Despejar " + ingrediente8);
+             System.out.println("Sabrina " + ingrediente8);
 
         } else{
             System.out.println("Não adicionar" + ingrediente8);
