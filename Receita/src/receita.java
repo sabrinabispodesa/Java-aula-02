@@ -50,7 +50,7 @@ public class receita {
         System.out.println("\n" + " Quer queijo ralado? " + "\n");
             String queijo = scanner.nextLine();
 
-        if (queijo == "sim"){
+        if (queijo.equalsIgnoreCase("sim")){
             System.out.println("Pegar " + ingrediente8);
             System.out.println("Abrir " + ingrediente8 + " com a " + utensilio5);
             System.out.println("Despejar " + ingrediente8);
